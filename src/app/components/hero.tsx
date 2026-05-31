@@ -84,13 +84,6 @@ export default function Hero({
               </span>
               <div className="absolute inset-0 h-full w-0 bg-[#1a1a1a] transition-all duration-500 ease-in-out group-hover:w-full z-0"></div>
             </a>
-
-            <button 
-              onClick={() => handleScrollToSection('selected-projects')}
-              className="w-full sm:w-auto px-5 sm:px-6 py-3 bg-transparent text-[#1a1a1a]/80 text-[11px] sm:text-xs font-bold tracking-[0.2em] uppercase rounded-full border border-[#1a1a1a]/10 hover:bg-[#1a1a1a]/5 transition-all duration-300 cursor-pointer text-center"
-            >
-              EXPLORE WORK
-            </button>
           </div>
 
         </div>
